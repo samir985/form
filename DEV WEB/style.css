@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Open+Sans:wght@400;500&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 10px 0 30px;
+}
+
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #00c6fb;
+}
+
+
+footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
